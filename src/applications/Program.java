@@ -45,10 +45,10 @@ public class Program {
 		System.out.println("Inserted! New Id = " + newSeller.getId());
 	*/	
 		System.out.println("\n ===== TEST 5: Seller Update =====");
-		seller = sellerDao.findById(1);
-		seller.setName("Akio Andrei");
+		seller = sellerDao.findById(4);
+		seller.setName("Maikola Snow");
 		sellerDao.update(seller);
-		System.out.println("Update completed");
+		System.out.println("Update completed.");
 		
 		System.out.println("\n ===== TEST 6: Seller Delete =====");
 		System.out.println("Enter id for delete test: ");
